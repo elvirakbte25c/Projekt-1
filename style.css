@@ -1,0 +1,101 @@
+body{
+    background-color: #f3eded;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid #bc0533;
+    background-color: #ffff;
+    color: #bc0533;
+
+    img{
+        max-width: 60px;
+        max-height: 60px;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: #bc0533;
+    background-color: #e8e2e3;
+    border: 5px solid #e8e2e3;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#Ingredienser{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: #bc0533;
+    background-color: white;
+    border: 5px solid white;
+    max-width: 40.75%;
+    padding-right: 9.35%;
+    float: left;
+
+    h2{
+        padding-left: 10px;
+    }
+
+    ol{
+        font-style: italic;
+        font-size: large;
+        padding-left:100px;
+    }
+
+}
+
+#kladdkaka{
+        max-width: 40.75%;
+        max-height: 30%;
+        padding-top: 7px;
+    }
+
+
+#Instruktioner{
+    display: flex;
+    flex-direction: column;
+    max-width: 57%;
+    height: 200%;
+    background-color: white;
+    color: #bc0533;
+    border: 5px solid white;
+    float: right;
+    padding-bottom: 8.3%;
+
+    h2{
+        padding-left: 10px;
+    }
+    li, h2{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li{
+        font-size: x-large;
+    }
+    ol{
+        padding-top: 10%;
+        padding-right: 20px;
+    }
+}
+
+#Instruktioner, #Ingredienser{
+    display: flex;
+    flex-direction: row;
+}
